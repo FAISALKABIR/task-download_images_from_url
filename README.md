@@ -1,18 +1,18 @@
 # task-download_images_from_url
 
-##Introducion
+<h2>Introducion</h2>
 
 In this repository, I describe how I download all the images from the given text file containing image URL.
 
-##Description
+<h2>Description</h2>
 
-My method has two steps:
+<h3>My method has two steps:</h3>
 
-####Step 1:
+<h4>Step 1:</h4>
 
 The first step is to gather URL links of the images from the given **_url.txt_** file that contains the URL link of the images. 
 
-####Step 2:
+<h4>Step 2:</h4>
 
 The second step is to download images from each URL using Python.
 
