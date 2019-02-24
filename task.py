@@ -17,14 +17,14 @@ Original file is located at
 path_text = "url.txt"
 
 o = open(path_text,"r")
-url0 = o.read()
+ur = o.read()
 o.close()
 
 # list, containing downloaded files 
-urls = url0.split()
+urls = ur.split()
 print("The number of urls: {}".format(len(urls)))
 print("____________________________")
-for url in urls[:10]:
+for url in urls:
     print(url)
     
     
