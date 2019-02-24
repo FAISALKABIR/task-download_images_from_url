@@ -1,23 +1,27 @@
 # task-download_images_from_url
 
-<h2>Introducion</h2>
+##Introducion
 
 In this repository, I describe how I download all the images from the given text file containing image URL.
 
-<h2>Description</h2>
+##Description
 
 My method has two steps:
 
-<h4>Step 1:</h4> The first step is to gather URL links of the images from the given *url.txt* file that contains the URL link of the images. 
+####Step 1:
 
-<h4>Step 2:</h4> The second step is to download images from each URL using Python.
+The first step is to gather URL links of the images from the given **_url.txt_** file that contains the URL link of the images. 
 
-First, let's take a look at the *url.txt* file. 
+####Step 2:
 
-**path_text = "url.txt"**
+The second step is to download images from each URL using Python.
 
-let's look at the lines of the *url.txt* and the number of lines.
+First, let's take a look at the **_url.txt_** file. 
 
-*ur = o.read()*
+```path_text = "url.txt"```
+
+let's look at the lines of the **_url.txt_** and the number of lines.
+
+```ur = o.read()```
     
-Next download the images from each of the URL using *requests.get()* . I included the *try catch* as some requests fail with error messages. Runinng the following script create a folder data if it does not exist in the current directory and save images in *jpg* format.
+Next download the images from each of the URL using ```requests.get()``` . I included the ```try catch``` as some requests fail with error messages. Runinng the following script create a folder data if it does not exist in the current directory and save images in **_jpg_** format.
